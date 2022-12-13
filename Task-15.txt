@@ -1,0 +1,21 @@
+Font Family :Inter
+link: https://fonts.google.com/specimen/Inter
+
+Super:Island Moments
+Link: https://gfonts.com/island-moments/
+
+Font Size
+H1 :78px
+H2 :56px
+H3 :31px
+H4 :36px
+H5 :20px
+H6 :14px
+
+Colours :
+Green : 5CA26E
+Ash :8E8E8E
+Yellow:FCDE7A
+card :F9F9F9
+Dark Ash :A6A6A6
+Red:CB1A1A
