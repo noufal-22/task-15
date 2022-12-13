@@ -2,10 +2,50 @@
     margin: 0;
     padding: 0;
 }
+ul,ol {
+    list-style: none;
+}
 .wrapper {
     width: 90%;
     margin: 0 auto;
 }
 body {
     font-size: 16px;
+}
+.wrapper header { 
+    padding: 50px 0;
+}
+
+.wrapper header .top { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper header .top .left { 
+
+}
+
+.wrapper header .top .left ul { 
+    display: flex;
+}
+
+.wrapper header .top .left ul li { 
+    margin-right: 16px;
+}
+.wrapper header .top .left ul li:last-child {
+    margin-right: 0;
+} 
+.wrapper header .top .left ul li a { 
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper header .top .right { 
+
+}
+
+.wrapper header .top .right p { 
+
 }
