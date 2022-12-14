@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 ul,ol {
     list-style: none;
 }
@@ -12,40 +16,149 @@ ul,ol {
 body {
     font-size: 16px;
 }
-.wrapper header { 
-    padding: 50px 0;
+header { 
+    padding: 3% 10%;
 }
 
-.wrapper header .top { 
+header .top { 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
-.wrapper header .top .left { 
+header .top .left { 
 
 }
 
-.wrapper header .top .left ul { 
+header .top .left ul { 
     display: flex;
 }
 
-.wrapper header .top .left ul li { 
+header .top .left ul li { 
     margin-right: 16px;
 }
-.wrapper header .top .left ul li:last-child {
+header .top .left ul li:last-child {
     margin-right: 0;
 } 
-.wrapper header .top .left ul li a { 
+header .top .left ul li a { 
     display: block;
     text-decoration: none;
     color: black;
 }
 
-.wrapper header .top .right { 
+header .top .right { 
 
 }
 
-.wrapper header .top .right p { 
+header .top .right p { 
 
+}
+.wrapper .top { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .top .left { 
+    width: 50%;
+}
+
+.wrapper .top .left ul { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .top .left ul li { 
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .top .left ul li .left-image { 
+    margin-right: 10px;
+}
+
+.wrapper .top .left ul li .left-image a { 
+    display: block;
+}
+
+.wrapper .top .left ul li .left-image a img { 
+    display: block;
+    width: 100%;
+}
+
+.wrapper .top .left ul li .right { 
+
+}
+
+.wrapper .top .left ul li .right .contact { 
+    display: block;
+    text-align: left;
+}
+.wrapper .top .left ul li .right .contact.detail { 
+    font-weight: 700;
+}
+
+.wrapper .top .right { 
+
+}
+
+.wrapper .top .right button { 
+   border: none;
+   background: none;
+}
+.wrapper .bottom { 
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .bottom h2 { 
+    width: 35%;
+    color: #96C1A2;
+    font-size: 28px;
+}
+
+.wrapper .bottom .middle { 
+
+}
+
+.wrapper .bottom .middle ul { 
+    display: flex;
+}
+
+.wrapper .bottom .middle ul li { 
+    margin-right: 10px;
+}
+.wrapper .bottom .middle ul li:last-child { 
+    margin-right: 0;
+}
+
+.wrapper .bottom .middle ul li a { 
+    font-weight: 700;
+    font-size: 16px;
+}
+.wrapper .bottom .middle ul li a:hover {
+    border-bottom: 1px solid #000;
+}
+.wrapper .bottom .right { 
+    display: flex;
+}
+
+.wrapper .bottom .right .cart { 
+    margin-right: 10px;
+}
+
+.wrapper .bottom .right .carrier { 
+
+}
+
+.wrapper .bottom .right .carrier a { 
+    display: block;
+}
+
+.wrapper .bottom .right .carrier a img { 
+    display: block;
+    width: 100%;
 }
