@@ -15,9 +15,23 @@ ul,ol {
 }
 body {
     font-size: 16px;
+    font-family: 'Inter';
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Island Moments';
+    src: url('../fonts/IslandMoments-Regular.woff2') format('woff2'),
+         url('../fonts/IslandMoments-Regular.woff') format('woff')
 }
 header { 
-    padding: 3% 10%;
+    padding: 1.5% 10%;
 }
 
 header .top { 
@@ -45,6 +59,7 @@ header .top .left ul li a {
     display: block;
     text-decoration: none;
     color: black;
+    font-size: 14px;
 }
 
 header .top .right { 
@@ -52,7 +67,7 @@ header .top .right {
 }
 
 header .top .right p { 
-
+    font-size: 14px;
 }
 .wrapper .top { 
     display: flex;
@@ -94,9 +109,11 @@ header .top .right p {
 .wrapper .top .left ul li .right .contact { 
     display: block;
     text-align: left;
+    font-size: 13px;
+    margin-bottom: 3px;
 }
 .wrapper .top .left ul li .right .contact.detail { 
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .wrapper .top .right { 
@@ -106,18 +123,20 @@ header .top .right p {
 .wrapper .top .right button { 
    border: none;
    background: none;
+   font-size: 16px;
 }
 .wrapper .bottom { 
     margin-top: 42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .wrapper .bottom h2 { 
     width: 35%;
     color: #96C1A2;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .wrapper .bottom .middle { 
@@ -147,7 +166,7 @@ header .top .right p {
 }
 
 .wrapper .bottom .right .cart { 
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .wrapper .bottom .right .carrier { 
@@ -161,4 +180,73 @@ header .top .right p {
 .wrapper .bottom .right .carrier a img { 
     display: block;
     width: 100%;
+}
+#spotlight { 
+    background: url(../Assets/Landing-Background.jpg) no-repeat;
+    background-size: cover;
+    padding: 80px 0 70px;
+}
+
+#spotlight .wrapper .content { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#spotlight .wrapper .left { 
+    background: url(../Assets/Landing-img-1.jpg) no-repeat;
+    background-size: cover;
+    width: 58%;
+    padding: 5% 3%;
+}
+
+#spotlight .wrapper .left .super { 
+    font-family: 'Island Moments';
+    font-size: 40px;
+    color: #89A495;
+}
+
+#spotlight .wrapper .left h2 { 
+    font-size: 48px;
+}
+
+#spotlight .wrapper .left .flex { 
+    display: flex;
+    align-items: center;
+}
+
+#spotlight .wrapper .left .flex .bar { 
+    background-color: #739481;
+    width: 12%;
+    height: 5px;
+    margin-right: 5px;
+}
+
+#spotlight .wrapper .left .flex h2 { 
+    font-size: 35px;
+}
+
+#spotlight .wrapper .left p { 
+    color: #9c9c9c;
+    width: 71%;
+    margin: 28px 0;
+}
+
+#spotlight .wrapper .left .button { 
+    background: #5fa171;
+    color: #fff;
+    padding: 14px 32px;
+    display: inline-block;
+}
+
+#spotlight .wrapper .right { 
+    background: url(../Assets/Landing-img-2.jpg) no-repeat;
+    background-size: cover;
+    width: 24%;
+    padding: 3% 5%;
+}
+
+#spotlight .wrapper .right h2 { 
+    color: #fcde7a;
+    font-size: 48px;
+    font-weight: 800;
 }
