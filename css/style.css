@@ -304,3 +304,306 @@ section#category {
   section#category section.wrapper div.categories ul li h5 { 
     margin-top: 15px;
   }
+  #gallery{
+    padding:80px 0;
+  }
+  #gallery section.wrapper{
+  }
+  #gallery section.wrapper section.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+  }
+  #gallery section.wrapper section.container div.left{
+    width: 63%;
+    
+  }
+  #gallery section.wrapper section.container div.left div.top{
+    background:url("../images/Organic-Product.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+   
+   
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left{
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 20px;
+    color: #fff;
+    
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left h1{
+    font-size:26px;
+    
+    
+    
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left h3{
+    font-size: 26px;
+    margin-bottom: 50px;
+    
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left div.text{
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 70px;
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left div.text span{
+    display: block;
+    
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left div.text small{
+    display: block;
+    
+  }
+  #gallery section.wrapper section.container div.left div.top_right{
+    width: 50%;
+    padding: 10px 0;
+  }
+  #gallery section.wrapper section.container div.left div.top div.top_left a.button{
+    padding: 15px 25px;
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  #gallery section.wrapper section.container div.left div.top_right{
+    width: 50%;
+   
+  }
+  #gallery section.wrapper section.container div.left div.top_right a.button{
+    padding: 25px 5px;
+    background: #fff;
+    border-radius:50% ;
+    display: inline-block;
+    width: 50px;
+  }
+  #gallery section.wrapper section.container div.bottom{
+    margin-top: 20px;
+    width:100% ;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_left{
+    width: 49%;
+    background: url("../images/All-Smoothie.jpg") no-repeat;
+    background-size: cover;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_left h2{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_left h3{
+    font-size: 28px;
+    
+    margin-left: 20px;
+    
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_left a.button{
+    padding: 15px 25px;
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_right{
+    width: 48%;
+    background: url("../images/Everyday-Fresh.jpg") no-repeat;
+    background-size: cover;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_right h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_right h3{
+    margin-left: 20px;
+    font-size: 26px;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_right h1{
+    font-size: 26px;
+    margin-top: 20px;
+    color: #CB1A1A;
+    margin-left: 20px;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_right a.button{
+    padding: 15px 25px;
+    background: #5ca26e;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #gallery section.wrapper section.container div.right{
+    width: 35%;
+    
+    background:url("../images/Sale-img-kiwi.jpg") no-repeat;
+    background-size:cover;
+  }
+  #gallery section.wrapper section.container  div.right h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  #gallery section.wrapper section.container div.right small{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    display: block;
+  }
+  #gallery section.wrapper section.container  div.right h3{
+    font-size: 16px;
+    color: #979aa0;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #our_products{
+    padding: 40px 0;
+  }
+  #our_products section.wrapper{
+  }
+  #our_products section.wrapper section.product{
+  }
+  #our_products section.wrapper section.product div.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #our_products section.wrapper section.product div.top div.left{
+    border-left: 2px solid #253858;
+  }
+  #our_products section.wrapper section.product div.top div.left h2{
+    font-size: 24px;
+    color: #000;
+    padding: 10px;
+  }
+  #our_products section.wrapper section.product div.top div.right{
+  }
+  #our_products section.wrapper section.product div.top div.right ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  #our_products section.wrapper section.product div.top div.right ul li{
+    margin-right: 20px;
+   
+  }
+  #our_products section.wrapper section.product div.top div.right ul li:last-child{
+    margin-right: 0;
+  }
+  #our_products section.wrapper section.product div.top div.right ul li a{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  section#our_products section.wrapper section.product div.bottom { 
+    margin-top: 60px;
+    
+  }
+  section#our_products section.wrapper section.product div.bottom ul { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    
+  }
+  section#our_products section.wrapper section.product div.bottom ul li { 
+    background: #f7faff;
+    width: 18%;
+    margin-bottom: 10px;
+   
+  }
+  section#our_products section.wrapper section.product div.bottom ul li a.button { 
+    padding: 10px 15px;
+    background: #cc1a1a;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    display: block;
+    width: 25%;
+    
+  }
+ 
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(5) a.button { 
+    padding: 10px 15px;
+    background: #a6a6a6;;
+    color: #fff;
+    display: block;
+    width: 45%;
+    font-size: 18px;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(10) a.button { 
+    padding: 10px 15px;
+    width: 45%;
+    display: block;
+    background: #a6a6a6;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li div.img { 
+   width: 100px;
+   margin: 0 auto 30px;
+   
+  }
+  section#our_products section.wrapper section.product div.bottom ul li div.img img { 
+    display: block;
+    width: 100%;
+     margin-top: 20px;
+     
+   
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(2) div.img img{
+   margin-top: 40px
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(4) div.img img{
+   margin-top: 40px
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(7) div.img img{
+   margin-top: 40px
+    
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(9) div.img img{
+   margin-top: 40px
+    
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(5) div.img img { 
+    margin-top: 40px;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li:nth-child(10)div.img img{
+    margin-top: 40px;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li h3 { 
+    font-size:14px;
+    font-weight:600;
+    
+  }
+  section#our_products section.wrapper section.product div.bottom ul li ul { 
+    display: flex;
+    justify-content: revert;
+    justify-content: center;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li ul li { 
+   width:6%;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li ul li img { 
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+  section#our_products section.wrapper section.product div.bottom ul li span { 
+    display: inline-block;
+    margin-bottom: 20px;
+    background: #e3e3e3;
+    font-size: 12px;
+    
+    
+  }
